@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        #load{
+            width: 100px;
+            height: 100px;
+            margin-top: 50px;
+            justify-content: space-around;
+            border: 30px solid white;
+            border-left-color: rgb(71, 71, 230);
+            border-bottom-color:rgb(71, 71, 230) ;
+            border-radius: 100px;
+            animation: loading 1.2s infinite;
+        }
+        h1{
+            color:rgb(71, 71, 230);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        @keyframes loading {
+            to{transform: rotate(360deg);}
+        }
+    </style>
+    <title>Prescrição</title>
+</head>
+<body>
+    <h1>Carregando...</h1>
+    <div id="load">
+        
+    </div>
+
+
+    <script src="../Sccripts/principal.js"></script>
+</body>
+</html>

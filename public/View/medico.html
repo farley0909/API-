@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/medico.css">
+    <title>Medico Cadastro</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+    <main>
+        <form id="formulario" action="/paciente" method="post">
+            <h1>Cadastro Médico</h1>
+            <div id="campo1">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div id="campo2">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+            </div>
+            <div id="campo3">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="cpf" id="cpf" placeholder="CPF">
+            </div>
+            <div id="campo4">
+                <label><img src="../Styles/Resources/crmIcon.png" width="20px" height="20px"></label><input type="text" name="crm" id="crm" placeholder="CRM">
+            </div>
+            <div id="campo5">
+                <label><img src="../Styles/Resources/calendarIcon.png" width="20px" height="20px"> </label><input type="text" name="data_nascimento" id="data_nascimento"placeholder="Data de Nascimento">
+            </div>
+            <div id="campo6">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="sexo" id="sexo" placeholder="Sexo (Exemplo 'M' ou 'F')"> 
+              
+            </div>
+            <div id="campo7">
+                <label><img src="../Styles/Resources/ufIcon.png" width="20px" height="20px"></label><input type="text" name="uf" id="uf" placeholder="UF (Exemplo: CE, SP)">
+            </div>
+            <button id="btnCadastrar" type="submit">
+                Cadastrar
+            </button>
+        </form>
+    </main>
+    <script type="module" src="../Sccripts/medico.js">	
+    </script>
+</body>
+</html>

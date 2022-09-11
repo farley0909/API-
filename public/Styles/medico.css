@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background-image: url('../Styles/Resources/background.PNG');
+   background-repeat: no-repeat;
+   background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+#formulario label{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#formulario input{
+    outline: none;
+    border-radius: 20px;
+   border:none;
+    padding: 4px;
+
+    font-size: 12pt;
+}
+#formulario h1{
+    font-size: 20pt;
+    font-weight: lighter;
+}
+#btnCadastrar{
+    box-shadow: 1px 1px 4px black;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#btnCadastrar:hover{
+    background-color: rgb(100, 100, 247);
+    color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+#campo1{
+    border-bottom: 1px solid black;
+}
+#campo2{
+    border-bottom: 1px solid black;
+}
+#campo3{
+    border-bottom: 1px solid black;
+}
+#campo4{
+    border-bottom: 1px solid black;
+}
+#campo5{
+    border-bottom: 1px solid black;
+}
+#campo6{
+    border-bottom: 1px solid black;
+}
+#campo7{
+    border-bottom: 1px solid black;
+}
+

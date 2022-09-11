@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/medico.css">
+    <title>Paciente Cadastro</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+    <main>
+        <form id="formulario" action="/principal" method="post">
+            <h1>Cadastro Paciente</h1>
+            <div id="campo1">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div id="campo2">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="cpf" name="cpf" id="cpf" placeholder="CPF">
+            </div>
+            <div id="campo3">
+                <label><img src="../Styles/Resources/dataPersonIcon.png" width="20px" height="20px"></label><input type="text" name="cell" id="cell" placeholder="Telefone">
+            </div>
+
+            <button type="submit" id="btnCadastrar">
+                Cadastrar
+            </button>
+        </form>
+    </main>
+    <script type="module" src="../Sccripts/paciente.js">	
+    </script>
+</body>
+</html>
